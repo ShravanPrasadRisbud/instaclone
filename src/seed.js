@@ -1,4 +1,9 @@
 // NOTE: replace 'NvPY9M9MzFTARQ6M816YAzDJxZ72' with your Firebase auth user id (can be taken from Firebase)
+// import firebase from "firebase"
+import Firebase from "firebase/compat/app"
+import "firebase/compat/firestore" // import using compat when dealing with firebase import statements
+import "firebase/auth"
+
 export function seedDatabase(firebase) {
   const users = [
   {
