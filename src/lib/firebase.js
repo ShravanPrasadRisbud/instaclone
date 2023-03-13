@@ -14,6 +14,6 @@ const config = {
 }
 
 const firebase = Firebase.initializeApp(config)
-const FieldValue = Firebase.firestore;  //this can be a error
+const FieldValue = Firebase.firestore;
 
 export { firebase, FieldValue}
