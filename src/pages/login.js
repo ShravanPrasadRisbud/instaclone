@@ -20,7 +20,7 @@ export default function Login() {
 
   return (
     <div className="container flex mx-auto max-w-screen-md items-center h-screen">
-      <p>superstar shrav baby is just male riddhi, and riddhi is female shrav lmao!!</p>
+      <p> by the order peaky fucking blinders!</p>
     </div>
   )
 }
